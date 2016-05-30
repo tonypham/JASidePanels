@@ -36,6 +36,7 @@ static char ja_kvoContext;
 @interface JASidePanelController() {
     CGRect _centerPanelRestingFrame;		
     CGPoint _locationBeforePan;
+    CGPoint _locationBeforePan2;
 }
 
 @property (nonatomic, readwrite) JASidePanelState state;
